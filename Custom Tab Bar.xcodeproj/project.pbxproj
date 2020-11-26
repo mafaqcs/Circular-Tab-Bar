@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2827D512257043900080CE61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2827D511257043900080CE61 /* AppDelegate.swift */; };
-		2827D514257043900080CE61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2827D513257043900080CE61 /* SceneDelegate.swift */; };
-		2827D516257043900080CE61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2827D515257043900080CE61 /* ViewController.swift */; };
-		2827D519257043900080CE61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2827D517257043900080CE61 /* Main.storyboard */; };
-		2827D51B257043910080CE61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2827D51A257043910080CE61 /* Assets.xcassets */; };
-		2827D51E257043910080CE61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2827D51C257043910080CE61 /* LaunchScreen.storyboard */; };
+		2827D539257043B60080CE61 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2827D52A257043B50080CE61 /* Home.storyboard */; };
+		2827D53A257043B60080CE61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2827D52C257043B50080CE61 /* LaunchScreen.storyboard */; };
+		2827D53B257043B60080CE61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2827D52F257043B60080CE61 /* AppDelegate.swift */; };
+		2827D53C257043B60080CE61 /* AppTaBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2827D532257043B60080CE61 /* AppTaBar.swift */; };
+		2827D53D257043B60080CE61 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2827D533257043B60080CE61 /* CustomTabBarController.swift */; };
+		2827D53E257043B60080CE61 /* UiColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2827D537257043B60080CE61 /* UiColor.swift */; };
+		2827D53F257043B60080CE61 /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2827D538257043B60080CE61 /* CornerRadius.swift */; };
+		2827D543257044290080CE61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2827D542257044290080CE61 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2827D50E257043900080CE61 /* Custom Tab Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Tab Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2827D511257043900080CE61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2827D513257043900080CE61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2827D515257043900080CE61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2827D518257043900080CE61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2827D51A257043910080CE61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2827D51D257043910080CE61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2827D51F257043910080CE61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2827D52A257043B50080CE61 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		2827D52D257043B50080CE61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2827D52F257043B60080CE61 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2827D532257043B60080CE61 /* AppTaBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTaBar.swift; sourceTree = "<group>"; };
+		2827D533257043B60080CE61 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		2827D537257043B60080CE61 /* UiColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UiColor.swift; sourceTree = "<group>"; };
+		2827D538257043B60080CE61 /* CornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
+		2827D542257044290080CE61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,73 @@
 		2827D510257043900080CE61 /* Custom Tab Bar */ = {
 			isa = PBXGroup;
 			children = (
-				2827D511257043900080CE61 /* AppDelegate.swift */,
-				2827D513257043900080CE61 /* SceneDelegate.swift */,
-				2827D515257043900080CE61 /* ViewController.swift */,
-				2827D517257043900080CE61 /* Main.storyboard */,
-				2827D51A257043910080CE61 /* Assets.xcassets */,
-				2827D51C257043910080CE61 /* LaunchScreen.storyboard */,
+				2827D52E257043B60080CE61 /* Application */,
+				2827D536257043B60080CE61 /* Helpers */,
+				2827D528257043B50080CE61 /* View */,
+				2827D530257043B60080CE61 /* Controllers */,
+				2827D52B257043B50080CE61 /* LaunchScreen */,
+				2827D534257043B60080CE61 /* Resources */,
 				2827D51F257043910080CE61 /* Info.plist */,
 			);
 			path = "Custom Tab Bar";
+			sourceTree = "<group>";
+		};
+		2827D528257043B50080CE61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2827D52A257043B50080CE61 /* Home.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2827D52B257043B50080CE61 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2827D52C257043B50080CE61 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		2827D52E257043B60080CE61 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2827D52F257043B60080CE61 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2827D530257043B60080CE61 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2827D531257043B60080CE61 /* TabBar */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2827D531257043B60080CE61 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2827D532257043B60080CE61 /* AppTaBar.swift */,
+				2827D533257043B60080CE61 /* CustomTabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		2827D534257043B60080CE61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2827D542257044290080CE61 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2827D536257043B60080CE61 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2827D537257043B60080CE61 /* UiColor.swift */,
+				2827D538257043B60080CE61 /* CornerRadius.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +186,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2827D51E257043910080CE61 /* LaunchScreen.storyboard in Resources */,
-				2827D51B257043910080CE61 /* Assets.xcassets in Resources */,
-				2827D519257043900080CE61 /* Main.storyboard in Resources */,
+				2827D539257043B60080CE61 /* Home.storyboard in Resources */,
+				2827D543257044290080CE61 /* Assets.xcassets in Resources */,
+				2827D53A257043B60080CE61 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,27 +199,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2827D516257043900080CE61 /* ViewController.swift in Sources */,
-				2827D512257043900080CE61 /* AppDelegate.swift in Sources */,
-				2827D514257043900080CE61 /* SceneDelegate.swift in Sources */,
+				2827D53C257043B60080CE61 /* AppTaBar.swift in Sources */,
+				2827D53E257043B60080CE61 /* UiColor.swift in Sources */,
+				2827D53F257043B60080CE61 /* CornerRadius.swift in Sources */,
+				2827D53B257043B60080CE61 /* AppDelegate.swift in Sources */,
+				2827D53D257043B60080CE61 /* CustomTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2827D517257043900080CE61 /* Main.storyboard */ = {
+		2827D52C257043B50080CE61 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2827D518257043900080CE61 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2827D51C257043910080CE61 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2827D51D257043910080CE61 /* Base */,
+				2827D52D257043B50080CE61 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -216,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,6 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68U92W9PT3;
 				INFOPLIST_FILE = "Custom Tab Bar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +365,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68U92W9PT3;
 				INFOPLIST_FILE = "Custom Tab Bar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
